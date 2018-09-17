@@ -1,5 +1,5 @@
 image_name     := kafka-manager
-image_registry := dylanmei
+image_registry := andreformento
 gitref         := master
 image_version  := 1.3.3.21
 #image_version  := $(gitref)

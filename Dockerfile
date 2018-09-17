@@ -1,8 +1,6 @@
 FROM openjdk:8-jdk
 
-ARG http_proxy
-ARG https_proxy
-ARG gitref
+ARG gitref=master
 
 RUN apt-get update \
  && apt-get install -y git curl unzip \
